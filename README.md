@@ -6,9 +6,13 @@ A lightweight Codex skill for turning completed AI work into reusable project me
 
 It helps an AI agent produce a structured “Done Summary” after implementation, debugging, deployment, research, or multi-step work.
 
-Created by **Xinyi Chen (陈歆怡)**, founder of HEDGE Global, who cares about turning AI collaboration from one-off chat into durable project assets: decisions, verification, pitfalls, handoffs, and reusable working memory.
+Created by **Xinyi Chen (陈歆怡)**, a Zhejiang native based in Shanghai. She is the founder and CEO of **HEDGE Global / 海聚海外**, working across premium international education, global expansion, and technology investment. She used to love spontaneous travel; now she is a vibe coding enthusiast.
 
-If you are interested in exchanging ideas, you can connect on WeChat: `chenxinyi_g`.
+If you also enjoy vibe coding and want to exchange ideas, you can connect on WeChat: `chenxinyi_g`.
+
+<p>
+  <img src="assets/wechat-xinyi-chen.jpg" alt="WeChat QR code for Xinyi Chen" width="260">
+</p>
 
 ## Language Templates
 
@@ -72,6 +76,8 @@ Write a done summary for this task.
 done-summary-skill-release/
   README.md
   LICENSE
+  assets/
+    wechat-xinyi-chen.jpg
   done-summary-skill/
     SKILL.md
     agents/openai.yaml
@@ -168,9 +174,9 @@ Use `examples/sanitized-example.md` as the style reference for public examples.
 
 `done-summary-skill` 是一个轻量 Codex Skill，用来把 AI 完成任务后的结果、判断、验证、踩坑和可复用经验整理成「完工总结」。
 
-由 **陈歆怡（Xinyi Chen）** 创建，陈歆怡是海聚海外的 CEO。这个 Skill 来自一个很朴素的工作习惯：AI 做完事以后，不应该只留下结果，还应该把判断、验证、踩坑、交接和可复用经验沉淀成长期项目资产。
+由 **陈歆怡（Xinyi Chen）** 创建。陈歆怡是在上海的浙江人，海聚海外（HEDGE Global）创始人兼 CEO，长期深耕高端国际教育、企业出海和科技投资。以前喜欢随心旅行，现在是 Vibe coding 爱好者。
 
-如果你对 AI 协作、项目记忆和完工总结方法感兴趣，欢迎加微信交流：`chenxinyi_g`。
+想要交流 vibe coding 的朋友，欢迎加微信：`chenxinyi_g`，也可以扫描 README 顶部二维码添加。
 
 它适合用于：
 
