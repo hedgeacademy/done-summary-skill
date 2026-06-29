@@ -31,6 +31,9 @@ LANGUAGE_ALIASES = {
     "jp": "ja",
     "japanese": "ja",
     "日本語": "ja",
+    "th": "th",
+    "thai": "th",
+    "ภาษาไทย": "th",
 }
 
 
@@ -60,7 +63,7 @@ def main() -> int:
     parser.add_argument(
         "--lang",
         default="en",
-        help="Template language: en, zh, ar-sa, ko, ja. Aliases like chinese, arabic, korean, japanese also work.",
+        help="Template language: en, zh, ar-sa, ko, ja, th. Aliases like chinese, arabic, korean, japanese, thai also work.",
     )
     parser.add_argument(
         "--output",
@@ -75,7 +78,7 @@ def main() -> int:
     args = parser.parse_args()
 
     if args.list:
-        print("en\nzh\nar-sa\nko\nja")
+        print("en\nzh\nar-sa\nko\nja\nth")
         return 0
 
     language = normalize_language(args.lang)

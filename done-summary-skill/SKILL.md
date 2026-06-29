@@ -1,6 +1,6 @@
 ---
 name: done-summary-skill
-description: Create a Done Summary / 完工总结 after completed AI work. Use when the user asks for a 完工总结, done summary, completion summary, work log, post-task summary, handoff, retrospective, lessons learned, writeback, Arabic/Saudi Arabic materials, Korean materials, Japanese materials, blank summary template generation, sanitized examples, privacy redaction, or wants task results, verification, pitfalls, risks, next steps, and reusable knowledge captured after implementation, debugging, deployment, research, configuration, or multi-step work.
+description: Create a Done Summary / 完工总结 after completed AI work. Use when the user asks for a 完工总结, done summary, completion summary, work log, post-task summary, handoff, retrospective, lessons learned, writeback, Arabic/Saudi Arabic materials, Korean materials, Japanese materials, Thai materials, blank summary template generation, sanitized examples, privacy redaction, or wants task results, verification, pitfalls, risks, next steps, and reusable knowledge captured after implementation, debugging, deployment, research, configuration, or multi-step work.
 ---
 
 # Done Summary Skill / 完工总结 Skill
@@ -74,6 +74,7 @@ Use bundled templates when a concrete file is useful:
 - Arabic for Saudi readers: `assets/templates/done-summary.ar-sa.md`
 - Korean: `assets/templates/done-summary.ko.md`
 - Japanese: `assets/templates/done-summary.ja.md`
+- Thai: `assets/templates/done-summary.th.md`
 
 To generate a blank Markdown file from a template, run:
 
@@ -81,7 +82,7 @@ To generate a blank Markdown file from a template, run:
 python scripts/new_summary.py --lang zh --output 完工总结.md
 ```
 
-Supported canonical language codes are `en`, `zh`, `ar-sa`, `ko`, and `ja`.
+Supported canonical language codes are `en`, `zh`, `ar-sa`, `ko`, `ja`, and `th`.
 
 ## Examples
 

@@ -53,7 +53,7 @@ Use $done-summary-skill to write a completion summary after this task.
 ## Suggested Repository Description
 
 ```text
-A bilingual Codex skill for turning completed AI work into reusable project memory.
+A multilingual Codex skill for turning completed AI work into reusable project memory.
 ```
 
 ## Suggested Topics
@@ -69,6 +69,7 @@ completion-summary
 arabic
 korean
 japanese
+thai
 templates
 checklists
 examples

@@ -1,6 +1,6 @@
 # done-summary-skill
 
-**English** | [中文](#中文) | [العربية](#arabic) | [한국어](#korean) | [日本語](#japanese)
+**English** | [中文](#中文) | [العربية](#arabic) | [한국어](#korean) | [日本語](#japanese) | [ไทย](#thai)
 
 A lightweight Codex skill for turning completed AI work into reusable project memory.
 
@@ -25,6 +25,7 @@ If you also enjoy vibe coding and want to exchange ideas, you can connect on WeC
 | العربية / Saudi readers | [`done-summary.ar-sa.md`](done-summary-skill/assets/templates/done-summary.ar-sa.md) |
 | 한국어 | [`done-summary.ko.md`](done-summary-skill/assets/templates/done-summary.ko.md) |
 | 日本語 | [`done-summary.ja.md`](done-summary-skill/assets/templates/done-summary.ja.md) |
+| ไทย | [`done-summary.th.md`](done-summary-skill/assets/templates/done-summary.th.md) |
 
 ## Why
 
@@ -97,6 +98,7 @@ done-summary-skill-release/
     assets/templates/done-summary.en.md
     assets/templates/done-summary.ja.md
     assets/templates/done-summary.ko.md
+    assets/templates/done-summary.th.md
     assets/templates/done-summary.zh.md
   examples/
     sanitized-example.md
@@ -107,9 +109,9 @@ done-summary-skill-release/
 This repository keeps the README and templates multilingual:
 
 - `SKILL.md` includes both English and Chinese trigger terms.
-- `README.md` includes English, Chinese, Arabic, Korean, and Japanese sections for GitHub readers.
+- `README.md` includes English, Chinese, Arabic, Korean, Japanese, and Thai sections for GitHub readers.
 - Templates are split by language to avoid awkward mixed-language summaries.
-- In addition to English and Chinese, the skill includes Arabic for Saudi readers (`ar-SA`), Korean (`ko`), and Japanese (`ja`) templates.
+- In addition to English and Chinese, the skill includes Arabic for Saudi readers (`ar-SA`), Korean (`ko`), Japanese (`ja`), and Thai (`th`) templates.
 
 For most teams, this is better than maintaining multiple separate repositories.
 
@@ -120,8 +122,9 @@ The templates folder includes:
 - `done-summary.ar-sa.md`: Arabic template written in clear formal Arabic for Saudi readers.
 - `done-summary.ko.md`: Korean template.
 - `done-summary.ja.md`: Japanese template.
+- `done-summary.th.md`: Thai template.
 
-Use these when the user requests a Done Summary in Arabic, Korean, or Japanese.
+Use these when the user requests a Done Summary in Arabic, Korean, Japanese, or Thai.
 
 ## Examples And Checklists
 
@@ -149,6 +152,7 @@ python done-summary-skill/scripts/new_summary.py --lang en --output done-summary
 python done-summary-skill/scripts/new_summary.py --lang ar-sa --output done-summary-ar.md
 python done-summary-skill/scripts/new_summary.py --lang ko --output done-summary-ko.md
 python done-summary-skill/scripts/new_summary.py --lang ja --output done-summary-ja.md
+python done-summary-skill/scripts/new_summary.py --lang th --output done-summary-th.md
 ```
 
 Print supported languages:
@@ -249,7 +253,7 @@ Use $done-summary-skill to write a completion summary after this task.
 
 - GitHub `README.md` 多语言展示；
 - `SKILL.md` 保持简洁，包含中英触发词；
-- 模板按语言拆分，当前包含中文、英文、面向沙特读者的阿拉伯语、韩语、日语；
+- 模板按语言拆分，当前包含中文、英文、面向沙特读者的阿拉伯语、韩语、日语、泰语；
 - 示例使用去敏版本。
 
 这样既方便国际化传播，也保留「完工总结」这个中文概念的辨识度。
@@ -261,8 +265,9 @@ Use $done-summary-skill to write a completion summary after this task.
 - `done-summary.ar-sa.md`：面向沙特读者的正式阿拉伯语模板。
 - `done-summary.ko.md`：韩语模板。
 - `done-summary.ja.md`：日语模板。
+- `done-summary.th.md`：泰语模板。
 
-当用户需要阿拉伯语、韩语或日语版本的完工总结时，可以直接使用对应模板。
+当用户需要阿拉伯语、韩语、日语或泰语版本的完工总结时，可以直接使用对应模板。
 
 ## 案例、检查清单和脚本
 
@@ -283,6 +288,7 @@ Use $done-summary-skill to write a completion summary after this task.
 ```bash
 python done-summary-skill/scripts/new_summary.py --lang zh --output 完工总结.md
 python done-summary-skill/scripts/new_summary.py --lang ja --output done-summary-ja.md
+python done-summary-skill/scripts/new_summary.py --lang th --output done-summary-th.md
 ```
 
 <a id="arabic"></a>
@@ -343,4 +349,24 @@ vibe codingについて交流したい方は、WeChatで `chenxinyi_g` を追加
 
 <p>
   <img src="assets/wechat-xinyi-chen.jpg" alt="Xinyi ChenのWeChat QRコード" width="260">
+</p>
+
+<a id="thai"></a>
+
+## ไทย
+
+ที่เก็บนี้มีเทมเพลตสรุปงานเสร็จภาษาไทย:
+
+[`done-summary.th.md`](done-summary-skill/assets/templates/done-summary.th.md)
+
+ใช้เทมเพลตนี้เพื่อสรุปผลลัพธ์ การตรวจสอบ ปัญหาที่พบ และขั้นตอนถัดไปหลังจากงาน implement, debugging, deployment, research, configuration หรือการทำงานหลายขั้นตอนเสร็จสิ้น
+
+### เกี่ยวกับผู้สร้าง
+
+โปรเจกต์นี้สร้างโดย **Xinyi Chen (陈歆怡)** ชาวเจ้อเจียงที่ใช้ชีวิตอยู่ในเซี่ยงไฮ้ เธอเป็นผู้ก่อตั้งและ CEO ของ **HEDGE Global / 海聚海外** และทำงานในด้านการศึกษานานาชาติระดับพรีเมียม การขยายธุรกิจสู่ต่างประเทศ และการลงทุนด้านเทคโนโลยีมาอย่างต่อเนื่อง เมื่อก่อนเธอชอบการเดินทางแบบตามใจตัวเอง ตอนนี้เธอเป็นผู้ที่สนใจ vibe coding
+
+หากสนใจแลกเปลี่ยนเรื่อง vibe coding สามารถเพิ่ม WeChat: `chenxinyi_g`
+
+<p>
+  <img src="assets/wechat-xinyi-chen.jpg" alt="QR code WeChat ของ Xinyi Chen" width="260">
 </p>
