@@ -1,6 +1,6 @@
 # done-summary-skill
 
-**English** | [中文](#中文)
+**English** | [中文](#中文) | [العربية](#arabic) | [한국어](#korean) | [日本語](#japanese)
 
 A lightweight Codex skill for turning completed AI work into reusable project memory.
 
@@ -9,6 +9,16 @@ It helps an AI agent produce a structured “Done Summary” after implementatio
 Created by **Xinyi Chen (陈歆怡)**, founder of HEDGE Global, who cares about turning AI collaboration from one-off chat into durable project assets: decisions, verification, pitfalls, handoffs, and reusable working memory.
 
 If you are interested in exchanging ideas, you can connect on WeChat: `chenxinyi_g`.
+
+## Language Templates
+
+| Language | Template |
+|---|---|
+| English | [`done-summary.en.md`](done-summary-skill/assets/templates/done-summary.en.md) |
+| 中文 | [`done-summary.zh.md`](done-summary-skill/assets/templates/done-summary.zh.md) |
+| العربية / Saudi readers | [`done-summary.ar-sa.md`](done-summary-skill/assets/templates/done-summary.ar-sa.md) |
+| 한국어 | [`done-summary.ko.md`](done-summary-skill/assets/templates/done-summary.ko.md) |
+| 日本語 | [`done-summary.ja.md`](done-summary-skill/assets/templates/done-summary.ja.md) |
 
 ## Why
 
@@ -195,3 +205,33 @@ Use $done-summary-skill to write a completion summary after this task.
 - `done-summary.ja.md`：日语模板。
 
 当用户需要阿拉伯语、韩语或日语版本的完工总结时，可以直接使用对应模板。
+
+<a id="arabic"></a>
+
+## العربية
+
+يتضمن هذا المستودع قالبًا عربيًا واضحًا ومناسبًا للقراء في السعودية:
+
+[`done-summary.ar-sa.md`](done-summary-skill/assets/templates/done-summary.ar-sa.md)
+
+استخدم هذا القالب عندما تحتاج إلى كتابة "ملخص الإنجاز" باللغة العربية بعد إكمال مهمة، أو إصلاح مشكلة، أو تنفيذ نشر، أو إنهاء عمل متعدد الخطوات.
+
+<a id="korean"></a>
+
+## 한국어
+
+이 저장소에는 한국어 완료 요약 템플릿이 포함되어 있습니다:
+
+[`done-summary.ko.md`](done-summary-skill/assets/templates/done-summary.ko.md)
+
+구현, 디버깅, 배포, 리서치, 설정 작업 또는 여러 단계의 작업이 끝난 뒤 결과와 검증, 문제, 다음 단계를 정리할 때 사용할 수 있습니다.
+
+<a id="japanese"></a>
+
+## 日本語
+
+このリポジトリには日本語の完了サマリーテンプレートが含まれています:
+
+[`done-summary.ja.md`](done-summary-skill/assets/templates/done-summary.ja.md)
+
+実装、デバッグ、デプロイ、調査、設定作業、または複数ステップの作業が完了したあとに、結果、検証内容、つまずいた点、次のステップを整理するために使えます。
