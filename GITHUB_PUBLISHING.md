@@ -66,4 +66,7 @@ handoff
 retrospective
 project-memory
 completion-summary
+arabic
+korean
+japanese
 ```

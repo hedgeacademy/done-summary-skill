@@ -1,6 +1,6 @@
 ---
 name: done-summary-skill
-description: Create a Done Summary / 完工总结 after completed AI work. Use when the user asks for a 完工总结, done summary, completion summary, work log, post-task summary, handoff, retrospective, lessons learned, writeback, or wants task results, verification, pitfalls, risks, next steps, and reusable knowledge captured after implementation, debugging, deployment, research, configuration, or multi-step work.
+description: Create a Done Summary / 完工总结 after completed AI work. Use when the user asks for a 完工总结, done summary, completion summary, work log, post-task summary, handoff, retrospective, lessons learned, writeback, Arabic/Saudi Arabic materials, Korean materials, Japanese materials, or wants task results, verification, pitfalls, risks, next steps, and reusable knowledge captured after implementation, debugging, deployment, research, configuration, or multi-step work.
 ---
 
 # Done Summary Skill / 完工总结 Skill
@@ -71,5 +71,8 @@ Use bundled templates when a concrete file is useful:
 
 - Chinese: `assets/templates/done-summary.zh.md`
 - English: `assets/templates/done-summary.en.md`
+- Arabic for Saudi readers: `assets/templates/done-summary.ar-sa.md`
+- Korean: `assets/templates/done-summary.ko.md`
+- Japanese: `assets/templates/done-summary.ja.md`
 
 For public GitHub examples, use a sanitized example rather than a real client or production project summary.

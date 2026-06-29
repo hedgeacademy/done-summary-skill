@@ -65,7 +65,10 @@ done-summary-skill-release/
   done-summary-skill/
     SKILL.md
     agents/openai.yaml
+    assets/templates/done-summary.ar-sa.md
     assets/templates/done-summary.en.md
+    assets/templates/done-summary.ja.md
+    assets/templates/done-summary.ko.md
     assets/templates/done-summary.zh.md
   examples/
     sanitized-example.md
@@ -73,13 +76,24 @@ done-summary-skill-release/
 
 ## Multilingual Strategy
 
-This repository is bilingual on purpose:
+This repository keeps the README bilingual and the templates multilingual:
 
 - `SKILL.md` includes both English and Chinese trigger terms.
 - `README.md` is bilingual for GitHub readers.
-- Templates are split into English and Chinese to avoid awkward mixed-language summaries.
+- Templates are split by language to avoid awkward mixed-language summaries.
+- In addition to English and Chinese, the skill includes Arabic for Saudi readers (`ar-SA`), Korean (`ko`), and Japanese (`ja`) templates.
 
-For most teams, this is better than maintaining two separate repositories.
+For most teams, this is better than maintaining multiple separate repositories.
+
+## Additional Language Materials
+
+The templates folder includes:
+
+- `done-summary.ar-sa.md`: Arabic template written in clear formal Arabic for Saudi readers.
+- `done-summary.ko.md`: Korean template.
+- `done-summary.ja.md`: Japanese template.
+
+Use these when the user requests a Done Summary in Arabic, Korean, or Japanese.
 
 ## Safety
 
@@ -167,7 +181,17 @@ Use $done-summary-skill to write a completion summary after this task.
 
 - GitHub `README.md` 中英双语；
 - `SKILL.md` 保持简洁，包含中英触发词；
-- 模板拆成中文和英文两个文件；
+- 模板按语言拆分，当前包含中文、英文、面向沙特读者的阿拉伯语、韩语、日语；
 - 示例使用去敏版本。
 
 这样既方便国际化传播，也保留「完工总结」这个中文概念的辨识度。
+
+## 新增语言材料
+
+模板目录已经包含：
+
+- `done-summary.ar-sa.md`：面向沙特读者的正式阿拉伯语模板。
+- `done-summary.ko.md`：韩语模板。
+- `done-summary.ja.md`：日语模板。
+
+当用户需要阿拉伯语、韩语或日语版本的完工总结时，可以直接使用对应模板。
