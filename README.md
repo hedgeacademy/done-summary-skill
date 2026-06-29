@@ -6,6 +6,8 @@ A lightweight Codex skill for turning completed AI work into reusable project me
 
 It helps an AI agent produce a structured “Done Summary” after implementation, debugging, deployment, research, or multi-step work.
 
+### About The Creator
+
 Created by **Xinyi Chen (陈歆怡)**, a Zhejiang native based in Shanghai. She is the founder and CEO of **HEDGE Global / 海聚海外**, working across premium international education, global expansion, and technology investment. She used to love spontaneous travel; now she is a vibe coding enthusiast.
 
 If you also enjoy vibe coding and want to exchange ideas, you can connect on WeChat: `chenxinyi_g`.
@@ -102,10 +104,10 @@ done-summary-skill-release/
 
 ## Multilingual Strategy
 
-This repository keeps the README bilingual and the templates multilingual:
+This repository keeps the README and templates multilingual:
 
 - `SKILL.md` includes both English and Chinese trigger terms.
-- `README.md` is bilingual for GitHub readers.
+- `README.md` includes English, Chinese, Arabic, Korean, and Japanese sections for GitHub readers.
 - Templates are split by language to avoid awkward mixed-language summaries.
 - In addition to English and Chinese, the skill includes Arabic for Saudi readers (`ar-SA`), Korean (`ko`), and Japanese (`ja`) templates.
 
@@ -174,9 +176,15 @@ Use `examples/sanitized-example.md` as the style reference for public examples.
 
 `done-summary-skill` 是一个轻量 Codex Skill，用来把 AI 完成任务后的结果、判断、验证、踩坑和可复用经验整理成「完工总结」。
 
+### 关于我
+
 由 **陈歆怡（Xinyi Chen）** 创建。陈歆怡是在上海的浙江人，海聚海外（HEDGE Global）创始人兼 CEO，长期深耕高端国际教育、企业出海和科技投资。以前喜欢随心旅行，现在是 Vibe coding 爱好者。
 
-想要交流 vibe coding 的朋友，欢迎加微信：`chenxinyi_g`，也可以扫描 README 顶部二维码添加。
+想要交流 vibe coding 的朋友，欢迎加微信：`chenxinyi_g`，也可以扫描下方二维码添加。
+
+<p>
+  <img src="assets/wechat-xinyi-chen.jpg" alt="陈歆怡微信二维码" width="260">
+</p>
 
 它适合用于：
 
@@ -239,7 +247,7 @@ Use $done-summary-skill to write a completion summary after this task.
 
 推荐方案是：
 
-- GitHub `README.md` 中英双语；
+- GitHub `README.md` 多语言展示；
 - `SKILL.md` 保持简洁，包含中英触发词；
 - 模板按语言拆分，当前包含中文、英文、面向沙特读者的阿拉伯语、韩语、日语；
 - 示例使用去敏版本。
@@ -287,6 +295,16 @@ python done-summary-skill/scripts/new_summary.py --lang ja --output done-summary
 
 استخدم هذا القالب عندما تحتاج إلى كتابة "ملخص الإنجاز" باللغة العربية بعد إكمال مهمة، أو إصلاح مشكلة، أو تنفيذ نشر، أو إنهاء عمل متعدد الخطوات.
 
+### نبذة عن المنشئة
+
+أنشأت هذا المشروع **شين يي تشن (Xinyi Chen / 陈歆怡)**، وهي من مقاطعة تشجيانغ وتقيم في شنغهاي. هي مؤسسة والرئيسة التنفيذية لـ **HEDGE Global / 海聚海外**، وتعمل عبر التعليم الدولي عالي المستوى، وتوسّع الشركات عالميًا، والاستثمار التقني. كانت تحب السفر العفوي، وهي الآن من محبي vibe coding.
+
+إذا كنت مهتمًا بتبادل الأفكار حول vibe coding، يمكنك إضافتها على WeChat: `chenxinyi_g`.
+
+<p>
+  <img src="assets/wechat-xinyi-chen.jpg" alt="رمز WeChat QR الخاص بـ Xinyi Chen" width="260">
+</p>
+
 <a id="korean"></a>
 
 ## 한국어
@@ -297,6 +315,16 @@ python done-summary-skill/scripts/new_summary.py --lang ja --output done-summary
 
 구현, 디버깅, 배포, 리서치, 설정 작업 또는 여러 단계의 작업이 끝난 뒤 결과와 검증, 문제, 다음 단계를 정리할 때 사용할 수 있습니다.
 
+### 만든 사람
+
+이 프로젝트는 **Xinyi Chen (陈歆怡)** 이 만들었습니다. Xinyi Chen은 상하이에 거주하는 저장성 출신으로, **HEDGE Global / 海聚海外**의 창업자이자 CEO입니다. 프리미엄 국제 교육, 기업의 글로벌 진출, 기술 투자 분야에서 일해 왔습니다. 예전에는 즉흥 여행을 좋아했고, 지금은 vibe coding을 즐기는 사람입니다.
+
+vibe coding에 대해 함께 이야기하고 싶은 분은 WeChat에서 `chenxinyi_g`로 연락할 수 있습니다.
+
+<p>
+  <img src="assets/wechat-xinyi-chen.jpg" alt="Xinyi Chen WeChat QR 코드" width="260">
+</p>
+
 <a id="japanese"></a>
 
 ## 日本語
@@ -306,3 +334,13 @@ python done-summary-skill/scripts/new_summary.py --lang ja --output done-summary
 [`done-summary.ja.md`](done-summary-skill/assets/templates/done-summary.ja.md)
 
 実装、デバッグ、デプロイ、調査、設定作業、または複数ステップの作業が完了したあとに、結果、検証内容、つまずいた点、次のステップを整理するために使えます。
+
+### 作者について
+
+このプロジェクトは **Xinyi Chen（陈歆怡）** が作成しました。Xinyi Chenは上海を拠点にする浙江省出身で、**HEDGE Global / 海聚海外** の創業者兼CEOです。ハイエンド国際教育、企業の海外展開、テクノロジー投資に長く取り組んでいます。以前は気の向くままの旅が好きで、今はvibe codingを楽しんでいます。
+
+vibe codingについて交流したい方は、WeChatで `chenxinyi_g` を追加できます。
+
+<p>
+  <img src="assets/wechat-xinyi-chen.jpg" alt="Xinyi ChenのWeChat QRコード" width="260">
+</p>
