@@ -75,6 +75,16 @@ done-summary-skill-release/
   done-summary-skill/
     SKILL.md
     agents/openai.yaml
+    checklists/
+      done-summary-checklist.md
+      privacy-redaction-checklist.md
+    examples/
+      code-fix.md
+      data-analysis.md
+      deployment-release.md
+      research-report.md
+    scripts/
+      new_summary.py
     assets/templates/done-summary.ar-sa.md
     assets/templates/done-summary.en.md
     assets/templates/done-summary.ja.md
@@ -104,6 +114,40 @@ The templates folder includes:
 - `done-summary.ja.md`: Japanese template.
 
 Use these when the user requests a Done Summary in Arabic, Korean, or Japanese.
+
+## Examples And Checklists
+
+The skill includes sanitized examples for common work types:
+
+- Code fix
+- Deployment release
+- Research report
+- Data analysis
+
+It also includes two practical checklists:
+
+- Done Summary quality checklist
+- Privacy redaction checklist
+
+These are bundled inside `done-summary-skill/`, so they are available after installation.
+
+## Generate A Blank Summary
+
+Use the bundled script to create a blank summary from any language template:
+
+```bash
+python done-summary-skill/scripts/new_summary.py --lang zh --output 完工总结.md
+python done-summary-skill/scripts/new_summary.py --lang en --output done-summary.md
+python done-summary-skill/scripts/new_summary.py --lang ar-sa --output done-summary-ar.md
+python done-summary-skill/scripts/new_summary.py --lang ko --output done-summary-ko.md
+python done-summary-skill/scripts/new_summary.py --lang ja --output done-summary-ja.md
+```
+
+Print supported languages:
+
+```bash
+python done-summary-skill/scripts/new_summary.py --list
+```
 
 ## Safety
 
@@ -205,6 +249,27 @@ Use $done-summary-skill to write a completion summary after this task.
 - `done-summary.ja.md`：日语模板。
 
 当用户需要阿拉伯语、韩语或日语版本的完工总结时，可以直接使用对应模板。
+
+## 案例、检查清单和脚本
+
+这个 Skill 现在内置了更多去敏案例：
+
+- 代码修复
+- 部署发布
+- 调研报告
+- 数据分析
+
+也内置了两个检查清单：
+
+- 完工总结质量检查清单
+- 隐私去敏检查清单
+
+还提供一个小脚本，可以根据语言模板生成空白总结文件：
+
+```bash
+python done-summary-skill/scripts/new_summary.py --lang zh --output 完工总结.md
+python done-summary-skill/scripts/new_summary.py --lang ja --output done-summary-ja.md
+```
 
 <a id="arabic"></a>
 

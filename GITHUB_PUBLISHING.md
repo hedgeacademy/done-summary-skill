@@ -69,4 +69,7 @@ completion-summary
 arabic
 korean
 japanese
+templates
+checklists
+examples
 ```
