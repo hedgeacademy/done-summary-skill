@@ -1,0 +1,4 @@
+interface:
+  display_name: "Done Summary / 完工总结"
+  short_description: "Turn finished work into reusable memory."
+  default_prompt: "Use $done-summary-skill to write a completion summary after this task."
